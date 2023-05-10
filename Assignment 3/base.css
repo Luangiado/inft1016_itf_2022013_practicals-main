@@ -1,0 +1,24 @@
+
+
+:root, html[data-theme='light'] {
+    --primary-color: rgb(255, 255, 255);
+    --secondary-color: rgb(144, 190, 140);
+    --bg-color: rgb(212, 47, 47);
+    --font-color: rgb(36, 29, 239);
+    --heading-color: rgb(233, 29, 205);
+}
+
+html[data-theme='dark'] {
+    --primary-color: rgb(0, 0, 0);
+    --secondary-color: rgb(15, 52, 24);
+    --bg-color: rgb(75, 10, 10);
+    --font-color: rgb(26, 26, 164);
+    --heading-color: rgb(45, 4, 39);
+}
+
+body {
+  background: var(--primary-color);
+  color: var(--font-color);
+}
+
+

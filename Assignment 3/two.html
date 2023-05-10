@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <section>
+        <img src="http://www.outgrabe.net/bird00.jpg" id="img">
+        <p id="p">Pardalote by fir0002 (CC-by-NC)</p>
+    </section>
+    <button id="btn1">Pardalote</button>
+    <button id="btn2">Purple Swamp Hen</button>
+    <button id="btn3">White-headed Stilt</button>
+    <button id="btn4">Inland Thornbill</button>
+    <button id="btn5">Rose Robin</button>
+</body>
+
+</html>
+
+<script>
+    const btn1 = document.querySelector('#btn1')
+    const btn2 = document.querySelector('#btn2')
+    const btn3 = document.querySelector('#btn3')
+    const btn4 = document.querySelector('#btn4')
+    const btn5 = document.querySelector('#btn5')
+
+    const img = document.querySelector('#img')
+    const p = document.querySelector('#p')
+
+    btn1.addEventListener('click',()=>{
+        img.src = 'http://www.outgrabe.net/bird00.jpg'
+        p.innerHTML = 'Pardalote by fir0002 (CC-by-NC)'
+    })
+    btn2.addEventListener('click',()=>{
+        img.src = 'http://www.outgrabe.net/bird01.jpg'
+        p.innerHTML = 'Purple swamp hen by Toby Hudson (CC-by-SA)'
+    })
+    btn3.addEventListener('click',()=>{
+        img.src = 'http://www.outgrabe.net/bird02.jpg'
+        p.innerHTML = 'White-headed Stilt by JJ Harrison (CC-by-SA)'
+    })
+    btn4.addEventListener('click',()=>{
+        img.src = 'http://www.outgrabe.net/bird03.jpg'
+        p.innerHTML = 'Inland Thornbill by Peter Jacobs (CC-by-SA)'
+    })
+    btn5.addEventListener('click',()=>{
+        img.src = 'http://www.outgrabe.net/bird04.jpg'
+        p.innerHTML = 'Rose Robin by JJ Harrison (CC-by-SA)'
+    })
+</script>
